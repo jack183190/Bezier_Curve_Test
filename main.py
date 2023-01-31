@@ -78,11 +78,6 @@ while running:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
                 running = False
-            if event.key == pygame.K_r:
-                line1_1 = randomPos(WIDTH, HEIGHT)
-                line1_2 = randomPos(WIDTH, HEIGHT)
-                line2_1 = randomPos(WIDTH, HEIGHT)
-                line2_2 = randomPos(WIDTH, HEIGHT)
             if event.key == pygame.K_0:
                 points = set()
             if event.key == pygame.K_1:
